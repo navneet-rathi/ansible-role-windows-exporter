@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.2.3](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.2.2...v3.2.3) (2025-07-11)
+
+
+### Fixes
+
+* **version:** windows_exporter updated to `0.31.0` release ([#42](https://github.com/antmelekhin/ansible-role-windows-exporter/issues/42)) ([1e3ee62](https://github.com/antmelekhin/ansible-role-windows-exporter/commit/1e3ee625d3b161921d7562706b7eadf3d1e5bd6b))
+
+## [3.2.2](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.2.1...v3.2.2) (2025-06-25)
+
+
+### Fixes
+
+* **version:** windows_exporter updated to `0.30.8` release ([#41](https://github.com/antmelekhin/ansible-role-windows-exporter/issues/41)) ([c2f38c6](https://github.com/antmelekhin/ansible-role-windows-exporter/commit/c2f38c6653c89f16c20a0e8d21b7fec20d815627))
+
+## [3.2.1](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.2.0...v3.2.1) (2025-05-18)
+
+
+### Fixes
+
+* **version:** windows_exporter updated to `0.30.7` release ([#40](https://github.com/antmelekhin/ansible-role-windows-exporter/issues/40)) ([03474c0](https://github.com/antmelekhin/ansible-role-windows-exporter/commit/03474c018d72a90077690702708be7917d242129))
+
+## [3.2.0](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.1.15...v3.2.0) (2025-04-10)
+
+
+### Features
+
+* add `windows_exporter_install_path` variable ([#39](https://github.com/antmelekhin/ansible-role-windows-exporter/issues/39)) ([370b692](https://github.com/antmelekhin/ansible-role-windows-exporter/commit/370b692a5499f04fb87f81cb425550a0a0cb3e12))
+
+## [3.1.15](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.1.14...v3.1.15) (2025-04-09)
+
+
+### Fixes
+
+* **version:** windows_exporter updated to `0.30.6` release ([#38](https://github.com/antmelekhin/ansible-role-windows-exporter/issues/38)) ([ffb3602](https://github.com/antmelekhin/ansible-role-windows-exporter/commit/ffb36021b382f7c0cea620967a6fd12f89290d69))
+
+## [3.1.14](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.1.13...v3.1.14) (2025-03-24)
+
+
+### Fixes
+
+* rm value from `windows_exporter_web_listen_address` variable ([5428515](https://github.com/antmelekhin/ansible-role-windows-exporter/commit/542851545f9324ec5f42891a2f06f5005ba03735))
+
+## [3.1.13](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.1.12...v3.1.13) (2025-03-20)
+
+
+### Fixes
+
+* **version:** windows_exporter updated to `0.30.5` release ([#37](https://github.com/antmelekhin/ansible-role-windows-exporter/issues/37)) ([391ba6a](https://github.com/antmelekhin/ansible-role-windows-exporter/commit/391ba6a07e38d4ee86604dfedcb03fd03ec0a5bb))
+
 ## [3.1.12](https://github.com/antmelekhin/ansible-role-windows-exporter/compare/v3.1.11...v3.1.12) (2025-02-17)
 
 

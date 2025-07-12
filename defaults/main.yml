@@ -1,13 +1,16 @@
 ---
 # See available releases: https://github.com/prometheus-community/windows_exporter/releases
-windows_exporter_version: '0.30.4'
+windows_exporter_version: '0.31.0'
 windows_exporter_package_name: 'windows_exporter-{{ windows_exporter_version }}-{{ __windows_exporter_architecture }}.msi'
 windows_exporter_download_url: 'https://github.com/prometheus-community/windows_exporter/releases/download/v{{ windows_exporter_version }}'
 windows_exporter_checksum_url: '{{ windows_exporter_download_url }}/sha256sums.txt'
 windows_exporter_download_path: '/tmp'
 
+# The Windows Exporter directory
+windows_exporter_install_path: 'C:\Program Files\windows_exporter'
+
 # See available settings flags: https://github.com/prometheus-community/windows_exporter/tree/master#flags
-windows_exporter_web_listen_address: '0.0.0.0'
+windows_exporter_web_listen_address: ''
 windows_exporter_web_listen_port: 9182
 windows_exporter_scrape_timeout_margin: '0.5'
 windows_exporter_telemetry_path: '/metrics'
